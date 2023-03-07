@@ -1,6 +1,19 @@
 #include <iostream>
 
+/*
+Formato de puntero
+
+tipo-dato *nombre_puntero
+
+Direccion de puntero
+*nombre_puntero &nombre_variable
+
+*/
+
 int main(){
-    std::cout<<"Hola";
-    return 0;
+    int num = 10;
+    int *p;
+    p = &num;
+    std::cout << num << std::endl;
+    std::cout << p << std::endl;
 }
