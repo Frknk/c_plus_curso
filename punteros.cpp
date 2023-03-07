@@ -12,8 +12,7 @@ Direccion de puntero
 
 int main(){
     int num = 10;
-    int *p;
-    p = &num;
+    int *p = &num;
     std::cout << num << std::endl;
     std::cout << p << std::endl;
 }
