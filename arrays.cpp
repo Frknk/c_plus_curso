@@ -25,7 +25,7 @@ int main(){
     }
     int tamanio = sizeof(string_array); // Tamano de un array
     int tamanio2 = sizeof(string_array)/sizeof(string_array[0]); // Obtener correcto
-    cout << tamanio2 << endl;
+    cout << tamanio << endl;
 
     string array_reemplazo[5] = {"Objeto1", "Objeto2", "Objeto3", "Objeto4", "Objeto5"};
     cout << "Original array"<<endl;
@@ -40,6 +40,17 @@ int main(){
         cout << array_reemplazo[i] << endl;
     }
 
+    // Arreglar NOTE: ARREGLADO
+    string array_libros[5];
+    for (int i = 0; i<sizeof(array_libros)/sizeof(array_libros[0]); i++)
+    {
+        cout << "Inserte item:"; cin >> array_libros[i];
+    }
+    cout << "Array libros" << endl;
+    for (int i = 0; i<sizeof(array_libros)/sizeof(array_libros[0]); i++)
+    {
+        cout << array_libros[i] << endl;
+    }
 
 
     return 0;
