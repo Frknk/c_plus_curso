@@ -18,13 +18,13 @@ int main(){
     if (nota_final >= 18 && nota_final <= 20){ // Asignar una letra en funcion a la nota
         nota_letra = 'A';
     }
-    if (nota_final < 18 && nota_final > 15){ // Asignar una letra en funcion a la nota
+    if (nota_final < 18 && nota_final >= 15){ // Asignar una letra en funcion a la nota
         nota_letra = 'B';
     }
-    if (nota_final < 15 && nota_final > 11){ // Asignar una letra en funcion a la nota
+    if (nota_final < 15 && nota_final >= 11){ // Asignar una letra en funcion a la nota
         nota_letra = 'C';
     }
-    if (nota_final < 11 && nota_final > 5){ // Asignar una letra en funcion a la nota
+    if (nota_final < 11 && nota_final >= 5){ // Asignar una letra en funcion a la nota
         nota_letra = 'D';
     }
     if(nota_final < 5){ // Asignar una letra en funcion a la nota
