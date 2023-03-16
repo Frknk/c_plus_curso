@@ -34,15 +34,15 @@ int main(){
 
     // Buscar el numero que se repite
     // Doble recorrido para buscar un elemento que se repita
-    int repite = arreglo1[0];
-    int cont;
-    for (int i = 1; i < sizeof(arreglo1)/sizeof(arreglo1[0]); i++)
+    int cont = 0;
+    int repite;
+    for (int i = 0; i < sizeof(arreglo1)/sizeof(arreglo1[0]); i++)
     {
        for (int j=i+1; j <sizeof(arreglo1)/sizeof(arreglo1[0]); j++){
             if (arreglo1[i]==arreglo1[j])
             {
-                cont++;
-                repite = arreglo1[i];  
+                repite = arreglo1[i];
+                cont++;  
             }
         } 
     }
