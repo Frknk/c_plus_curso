@@ -58,19 +58,20 @@ int main(){
     cout << "La suma es: " << sumarr << endl;
 
     // Ordenar de mayor a menor
-    // Corregir **
+    // Corregir ** CORREGIDO
     cout << "Ordenado de mayor a menor" << endl;
     int temp;
-    for (int i = 0; i < size-1; i++)
+    for (int i = 0; i < size - 1; i++)
     {
-       for (int j = 0; j < size-i-1; j++){
-            if (arreglo1[i]<arreglo1[i+1])
+        for (int j = 0; j < size - i - 1; j++)
+        {
+            if (arreglo1[j] < arreglo1[j+1])
             {
-                temp = arreglo1[j];
+                int varTemp = arreglo1[j];
                 arreglo1[j] = arreglo1[j+1];
-                arreglo1[j+1] = temp; 
+                arreglo1[j+1]= varTemp;
             }
-        } 
+        }
     }
 
     for (int i = 0; i < size; i++)
