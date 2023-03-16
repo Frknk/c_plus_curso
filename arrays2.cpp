@@ -23,7 +23,7 @@ int main(){
 
     // Busca el mayor
     int mayor = arreglo1[0];
-    for (int i = 0; i < sizeof(arreglo1)/sizeof(arreglo1[0]); i++)
+    for (int i = 1; i < sizeof(arreglo1)/sizeof(arreglo1[0]); i++)
     {
         if (arreglo1[i]>mayor)
         {
