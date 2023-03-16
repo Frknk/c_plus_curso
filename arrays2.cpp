@@ -3,7 +3,7 @@ using namespace std;
 
 int main(){
     int arreglo1[5];
-    // Recorre el arreglo
+    // Recorre el arreglo e inserta valores
     for (int i = 0; i < sizeof(arreglo1)/sizeof(arreglo1[0]); i++)
     {
         cout << "Inserte un valor: "; cin >> arreglo1[i];
