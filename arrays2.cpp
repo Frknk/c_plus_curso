@@ -2,11 +2,11 @@
 using namespace std;
 
 int main(){
-    int arreglo1[6] = {1,2,3,4,6,6};
+    int arreglo1[5];
     // Recorre el arreglo
     for (int i = 0; i < sizeof(arreglo1)/sizeof(arreglo1[0]); i++)
     {
-        cout << arreglo1[i] << endl;
+        cout << "Inserte un valor: "; cin >> arreglo1[i];
     }
     
     // Busca el menor
