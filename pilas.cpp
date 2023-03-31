@@ -35,7 +35,8 @@ int main()
         cola.pop();
     }
 
-    /* para pilas
+    /* 
+    para pilas
 
     struct pila{
     int dato;
