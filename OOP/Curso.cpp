@@ -73,6 +73,13 @@ public:
         ex_final = _ex_final;
     }
 
+    /* Promedio
+    float promedio(){
+        float pr = 0;
+        pr = (parcial1 + parcial2 + medio_curso + ex_final) / 4;
+        return pr;
+    }*/
+    
     // Imprimir atributos
     void imprimir()
     {
@@ -99,5 +106,8 @@ int main(){
     cout << "Quimica:" << "\n"; quimica.imprimir(); cout << "\n";
     cout << "Programacion:" << "\n"; programacion.imprimir(); cout << "\n";
     cout << "Calculo:" << "\n"; calculo.imprimir(); cout << "\n";
+
+
+
     return 0;
 }
