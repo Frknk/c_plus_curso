@@ -1,143 +1,97 @@
 #include <iostream>
-#include <string>
-#include <math.h>
 
 using namespace std;
 
 class Cuadrilatero
 {
+    // Atributos
 private:
-    // atributos
-    float base, altura;
-    float area, perimetro;
-    float hipotenusa;
-    string tipo;
+    float lado1;
+    float lado2;
 
 public:
-    // constructor
-    Cuadrilatero(float _base, float _altura)
+    // Constructor
+    Cuadrilatero(float _lado1, float _lado2)
     {
-        base = _base;
-        altura = _altura;
+        lado1 = _lado1;
+        lado2 = _lado2;
     }
 
     // Getters
-    float getBase()
+    float getLado1()
     {
-        return base;
+        return lado1;
     }
 
-    float getAltura()
+    float getLado2()
     {
-        return altura;
+        return lado2;
     }
 
+    // Setters
+    void setLado1(float _lado1)
+    {
+        lado1 = _lado1;
+    }
+
+    void setLado2(float _lado2)
+    {
+        lado2 = _lado2;
+    }
+
+    // Metodos
     float getArea()
     {
-        return area;
+        return lado1 * lado2;
     }
 
     float getPerimetro()
     {
-        return perimetro;
+        return (lado1 + lado2) * 2;
     }
 
-    float getHipotenusa()
+    // Imprimir valores
+    void mostrar()
     {
-        return hipotenusa;
-    }
-
-    string getTipo()
-    {
-        return tipo;
-    }
-
-    // Setters
-    void setBase(float _base)
-    {
-        base = _base;
-    }
-
-    void setAltura(float _altura)
-    {
-        altura = _altura;
-    }
-
-    void setArea(float _area)
-    {
-        area = _area;
-    }
-
-    void setPerimetro(float _perimetro)
-    {
-        perimetro = _perimetro;
-    }
-
-    void setHipotenusa(float _hipotenusa)
-    {
-        hipotenusa = _hipotenusa;
-    }
-
-    void setTipo(string _tipo)
-    {
-        tipo = _tipo;
-    }
-
-    // Metodos
-    void calcularArea()
-    {
-        area = (base * altura) / 2;
-    }
-
-    void calcularPerimetro()
-    {
-        hipotenusa = sqrt(pow(base, 2) + pow(altura, 2));
-        perimetro = base + altura + hipotenusa;
-    }
-
-    void calcularHipotenusa()
-    {
-        hipotenusa = sqrt(pow(base, 2) + pow(altura, 2));
-    }
-
-    void tipoTriangulo()
-    {
-        if (base == altura)
-        {
-            cout << "Tipo de triangulo: Es un triangulo equilatero" << endl;
-        }
-        else if (base == hipotenusa || altura == hipotenusa)
-        {
-            cout << "Tipo de triangulo: Es un triangulo isosceles" << endl;
-        }
-        else
-        {
-            cout << "Tipo de triangulo: Es un triangulo escaleno" << endl;
-        }
-    }
-
-    void mostrarDatos()
-    {
-        cout << "Base: " << base << endl;
-        cout << "Altura: " << altura << endl;
-        cout << "Area: " << area << endl;
-        cout << "Perimetro: " << perimetro << endl;
-        cout << "Hipotenusa: " << hipotenusa << endl;
-        cout << tipo;
+        cout << "Lado 1: " << lado1 << endl;
+        cout << "Lado 2: " << lado2 << endl;
+        cout << "Area: " << getArea() << endl;
+        cout << "Perimetro: " << getPerimetro() << endl;
     }
 };
 
-int main(){
-    // objeto
-    Cuadrilatero cuadrado1(3, 4);
+int main()
+{
+    // Declaramos 3 objetos
+    Cuadrilatero cuadrilatero1(2, 3);
+    Cuadrilatero cuadrilatero2(4, 5);
+    Cuadrilatero cuadrilatero3(6, 7);
 
-    cout << endl;
+    // Modificamos los lados de 2 objetos
+    cuadrilatero1.setLado1(10);
+    cuadrilatero1.setLado2(20);
+    cuadrilatero2.setLado1(20);
+    cuadrilatero2.setLado2(30);
 
-    Cuadrilatero cuadrado2(24, 7);
+    // Sumatoria de lados por objeto
+    cout << "Sumatoria de lados por objeto" << endl;
+    cout << "Cuadrilatero 1: " << cuadrilatero1.getLado1() + cuadrilatero1.getLado2() << endl;
+    cout << "Cuadrilatero 2: " << cuadrilatero2.getLado1() + cuadrilatero2.getLado2() << endl;
+    cout << "Cuadrilatero 3: " << cuadrilatero3.getLado1() + cuadrilatero3.getLado2() << endl;
 
-    cout << endl;
+    // Calculo de area y perimetro por objeto
+    cout << "Calculo de area y perimetro por objeto" << endl;
+    cuadrilatero1.mostrar();
+    cuadrilatero2.mostrar();
+    cuadrilatero3.mostrar();
 
-    Cuadrilatero cuadrado3(1, 1);
+    // Sumatoria de areas de todos los objetos
+    cout << "Sumatoria de areas de todos los objetos" << endl;
+    cout << "Sumatoria: " << cuadrilatero1.getArea() + cuadrilatero2.getArea() + cuadrilatero3.getArea() << endl;
+
+    // Sumatoria de perimetros de todos los objetos
+    cout << "Sumatoria de perimetros de todos los objetos" << endl;
+    cout << "Sumatoria: " << cuadrilatero1.getPerimetro() + cuadrilatero2.getPerimetro() + cuadrilatero3.getPerimetro() << endl;
 
     return 0;
 }
