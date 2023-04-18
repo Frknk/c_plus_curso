@@ -1,5 +1,6 @@
 #include <iostream>
 #include <queue> // incluimos la biblioteca de colas
+// #include <stack> // incluimos la biblioteca de pilas
 
 using namespace std;
 
