@@ -1,10 +1,9 @@
-#include <iostream>
 #include <string>
 #include "Animal.cpp"
 
 using namespace std;
 
-class Gato : public Animal
+class Gato : Animal
 {
 protected:
     int vidas;
