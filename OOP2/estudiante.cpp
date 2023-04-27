@@ -49,6 +49,12 @@ public:
         cout << "\n";
     }
 
+    string datosString()
+    {
+        string descripcion = codigo_estudiante + "  " + getApellidos() + " " + getNombres() + " " + getDNI();
+        return descripcion;
+    }
+
     Facultad getFacultad()
     {
         return facultad;
@@ -87,6 +93,30 @@ public:
         {
             cout << "No se registraron cursos para el estudiante ...........";
             cout << "\n";
+        }
+    }
+
+    string stringMostrarCursos()
+    {
+
+            string asd;
+            for (int i = 0; i < 5; i++)
+            {
+                asd = asd + " .- " + cursos[i].toString() + "\n";
+                
+                
+            }
+            return asd;
+    }
+
+
+    void notasnormal(float nota1, float nota2, float nota3)
+    {
+        for (int i = 0; i < sizeof(cursos) / sizeof(cursos[0]); i++)
+        {
+            cursos[i].setNota1(nota1);
+            cursos[i].setNota2(nota2);
+            cursos[i].setNota3(nota3);
         }
     }
 

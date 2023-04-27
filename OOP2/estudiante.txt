@@ -1,0 +1,42 @@
+2023000001  perez juanito 44444444
+ .- Curso: Programacion Basica --> Credito:  4 --> Promedio: 22.666666
+ .- Curso: Diseno de BD --> Credito:  3 --> Promedio: 22.666666
+ .- Curso:  --> Credito:  0 --> Promedio: 22.666666
+ .- Curso:  --> Credito:  0 --> Promedio: 22.666666
+ .- Curso:  --> Credito:  0 --> Promedio: 22.666666
+
+20220456   jose caldas 234567
+ .- Curso: Programacion Basica --> Credito:  4 --> Promedio: 22.666666
+ .- Curso: Diseno de BD --> Credito:  3 --> Promedio: 22.666666
+ .- Curso:  --> Credito:  0 --> Promedio: 22.666666
+ .- Curso:  --> Credito:  0 --> Promedio: 22.666666
+ .- Curso:  --> Credito:  0 --> Promedio: 22.666666
+
+20223457   carlos solar 345678
+ .- Curso: Castrado I --> Credito:  3 --> Promedio: 32.666668
+ .- Curso: Introduccion Zootecnia I --> Credito:  4 --> Promedio: 32.666668
+ .- Curso:  --> Credito:  0 --> Promedio: 32.666668
+ .- Curso:  --> Credito:  0 --> Promedio: 32.666668
+ .- Curso:  --> Credito:  0 --> Promedio: 32.666668
+
+20223412  marco palacios 3457177
+ .- Curso: Castrado I --> Credito:  3 --> Promedio: 32.666668
+ .- Curso: Introduccion Zootecnia I --> Credito:  4 --> Promedio: 32.666668
+ .- Curso:  --> Credito:  0 --> Promedio: 32.666668
+ .- Curso:  --> Credito:  0 --> Promedio: 32.666668
+ .- Curso:  --> Credito:  0 --> Promedio: 32.666668
+
+2020007  lopez manuel 20458771
+ .- Curso: Electricidad I --> Credito:  4 --> Promedio: 42.666668
+ .- Curso: Mecanica IV --> Credito:  3 --> Promedio: 42.666668
+ .- Curso:  --> Credito:  0 --> Promedio: 42.666668
+ .- Curso:  --> Credito:  0 --> Promedio: 42.666668
+ .- Curso:  --> Credito:  0 --> Promedio: 42.666668
+
+2000485  exaltacion therry 2024575
+ .- Curso: Electricidad I --> Credito:  4 --> Promedio: 42.666668
+ .- Curso: Mecanica IV --> Credito:  3 --> Promedio: 42.666668
+ .- Curso:  --> Credito:  0 --> Promedio: 42.666668
+ .- Curso:  --> Credito:  0 --> Promedio: 42.666668
+ .- Curso:  --> Credito:  0 --> Promedio: 42.666668
+
