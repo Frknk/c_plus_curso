@@ -85,10 +85,10 @@ int main()
 
     // Facultad y estudiantes
     ofstream estudiantes;
-    estudiantes.open("estudiantes2.txt");
+    estudiantes.open("estudiantes.txt");
     if (!estudiantes.is_open())
     {
-        cout << "Error abriendo: estudiantes2.txt" << endl;
+        cout << "Error abriendo: estudiantes.txt" << endl;
     }
     else
     {
@@ -98,20 +98,17 @@ int main()
         {
             if (lista_estudiantes[i].getFacultad().getSigla() == "FIIS")
             {
-                estudiantes << lista_estudiantes[i].getFacultad().toString() << "\n";
-                estudiantes << lista_estudiantes[i].datosString() << "\n";
+                estudiantes << lista_estudiantes[i].getFacultad().toString() << " | " << lista_estudiantes[i].datosString() << "\n";
             }
 
             else if (lista_estudiantes[i].getFacultad().getSigla() == "ZOO")
             {
-                estudiantes << lista_estudiantes[i].getFacultad().toString() << "\n";
-                estudiantes << lista_estudiantes[i].datosString() << "\n";
+                estudiantes << lista_estudiantes[i].getFacultad().toString() << " | " << lista_estudiantes[i].datosString() << "\n";
             }
 
             else if (lista_estudiantes[i].getFacultad().getSigla() == "FIME")
             {
-                estudiantes << lista_estudiantes[i].getFacultad().toString() << "\n";
-                estudiantes << lista_estudiantes[i].datosString() << "\n";
+                estudiantes << lista_estudiantes[i].getFacultad().toString() << " | " << lista_estudiantes[i].datosString() << "\n";
             }
         }
     }

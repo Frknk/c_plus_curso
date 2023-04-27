@@ -1,0 +1,6 @@
+001  Facultad de Ingenieria en Informatica y Sistemas FIIS | 2023000001  perez juanito 44444444
+001  Facultad de Ingenieria en Informatica y Sistemas FIIS | 20220456   jose caldas 234567
+002  Facultad de de Zootecnia ZOO | 20223457   carlos solar 345678
+002  Facultad de de Zootecnia ZOO | 20223412  marco palacios 3457177
+003  Facultad de Mecanica Electrica FIME | 2020007  lopez manuel 20458771
+003  Facultad de Mecanica Electrica FIME | 2000485  exaltacion therry 2024575
