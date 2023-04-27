@@ -94,21 +94,28 @@ int main()
     {
         // Creando archivo estudiantes.txt
         // Contiene facultad y sus estudiantes
+        estudiantes << "Facultad de Ingenieria en Sistemas" << "\n";
         for (int i = 0; i < maximo; i++)
         {
             if (lista_estudiantes[i].getFacultad().getSigla() == "FIIS")
             {
-                estudiantes << lista_estudiantes[i].getFacultad().toString() << " | " << lista_estudiantes[i].datosString() << "\n";
+                estudiantes << lista_estudiantes[i].datosString() << "\n";
             }
-
-            else if (lista_estudiantes[i].getFacultad().getSigla() == "ZOO")
+        }
+        estudiantes << "Facultad Zootecnia" << "\n";
+        for (int i = 0; i < maximo; i++)
+        {
+            if (lista_estudiantes[i].getFacultad().getSigla() == "ZOO")
             {
-                estudiantes << lista_estudiantes[i].getFacultad().toString() << " | " << lista_estudiantes[i].datosString() << "\n";
+                estudiantes << lista_estudiantes[i].datosString() << "\n";
             }
-
-            else if (lista_estudiantes[i].getFacultad().getSigla() == "FIME")
+        }
+        estudiantes << "Facultad de Ingenieria Mecanica electrica" << "\n";
+        for (int i = 0; i < maximo; i++)
+        {
+            if (lista_estudiantes[i].getFacultad().getSigla() == "FIME")
             {
-                estudiantes << lista_estudiantes[i].getFacultad().toString() << " | " << lista_estudiantes[i].datosString() << "\n";
+                estudiantes << lista_estudiantes[i].datosString() << "\n";
             }
         }
     }
