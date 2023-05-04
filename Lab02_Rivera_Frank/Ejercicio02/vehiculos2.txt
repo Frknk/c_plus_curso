@@ -1,0 +1,18 @@
+Motocar Denis S.A.
+.- Automoviles :
+Cilindrada motor: 1.6| Nro asientos: 5| Nro ruedas: 4| Nro puertas: 4| Certificacion: 5 Estrellas| Color: Rojo| Marca: Toyota
+Cilindrada motor: 1.8| Nro asientos: 5| Nro ruedas: 4| Nro puertas: 4| Certificacion: 4 Estrellas| Color: Azul| Marca: Nissan
+Cilindrada motor: 1.7| Nro asientos: 5| Nro ruedas: 4| Nro puertas: 4| Certificacion: 3 Estrellas| Color: Verde| Marca: Hyundai
+Cilindrada motor: 2| Nro asientos: 5| Nro ruedas: 4| Nro puertas: 4| Certificacion: 4 Estrellas| Color: Blanco| Marca: Mercedes
+Cilindrada motor: 1.6| Nro asientos: 5| Nro ruedas: 4| Nro puertas: 4| Certificacion: 5 Estrellas| Color: Negro| Marca: Toyota
+Cilindrada motor: 1.8| Nro asientos: 5| Nro ruedas: 4| Nro puertas: 4| Certificacion: 4 Estrellas| Color: Gris| Marca: Nissan
+Cilindrada motor: 1.7| Nro asientos: 5| Nro ruedas: 4| Nro puertas: 4| Certificacion: 3 Estrellas| Color: Amarillo| Marca: Hyundai
+Cilindrada motor: 2| Nro asientos: 5| Nro ruedas: 4| Nro puertas: 4| Certificacion: 4 Estrellas| Color: Negro| Marca: Mercedes
+Cilindrada motor: 5| Nro asientos: 5| Nro ruedas: 4| Nro puertas: 4| Certificacion: 5 Estrellas| Color: Plata| Marca: BMW
+Cilindrada motor: 1| Nro asientos: 2| Nro ruedas: 4| Nro puertas: 4| Certificacion: 5 Estrellas| Color: Azul| Marca: Volkswagen
+.- Motocicletas :
+Cilindrada motor: 1| Nro asientos: 2| Nro ruedas: 2| Nro puertas: 0| Certificacion: 3 Estrellas| Color: Rojo| Marca: Honda
+Cilindrada motor: 1.7| Nro asientos: 2| Nro ruedas: 2| Nro puertas: 0| Certificacion: 4 Estrellas| Color: Naranja| Marca: KTM
+Cilindrada motor: 1.6| Nro asientos: 2| Nro ruedas: 2| Nro puertas: 0| Certificacion: 5 Estrellas| Color: Verde| Marca: Kawasaki
+Cilindrada motor: 1| Nro asientos: 2| Nro ruedas: 2| Nro puertas: 0| Certificacion: 3 Estrellas| Color: Blanco| Marca: Honda
+Cilindrada motor: 1.4| Nro asientos: 2| Nro ruedas: 2| Nro puertas: 0| Certificacion: 4 Estrellas| Color: Azul| Marca: Pulsar

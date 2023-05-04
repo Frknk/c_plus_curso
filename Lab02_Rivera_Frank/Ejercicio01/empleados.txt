@@ -1,0 +1,15 @@
+.- Departamento de Sistemas
+Jefe de Departamento | S/. 5000 10 años Juan Perez 12345678 01/01/1990 30
+Tecnico | S/. 2000 5 años Jose Gonzales 87654321 01/01/1990 30
+Tecnico | S/. 2000 5 años Luis Pes 87654321 01/01/1990 30
+Tecnico | S/. 2000 5 años Ana Sep 87654321 01/01/1990 30
+.- Departamento de Ciencias
+Jefe de Departamento | S/. 5000 10 años Maria Lopez 87654321 01/01/1990 30
+Tecnico | S/. 2000 5 años Ana Gutierrez 87654321 01/01/1990 30
+Tecnico | S/. 2000 5 años Luis Gutierrez 87654321 01/01/1990 30
+Tecnico | S/. 2000 5 años Ana Gutierrez 87654321 01/01/1990 30
+.- Departamento de Matematicas
+Jefe de Departamento | S/. 5000 10 años Pedro Garcia 12345678 01/01/1990 30
+Tecnico | S/. 2000 5 años Luis Gutierrez 87654321 01/01/1990 30
+Tecnico | S/. 2000 5 años Ana Gutierrez 87654321 01/01/1990 30
+Tecnico | S/. 2000 5 años Juan Gutierrez 87654321 01/01/1990 30
