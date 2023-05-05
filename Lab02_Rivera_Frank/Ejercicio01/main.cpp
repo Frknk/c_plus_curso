@@ -39,6 +39,7 @@ int main()
     empleado11.setDepartamento(departamento3);
     empleado12.setDepartamento(departamento3);
 
+    // Creando arreglo
     Empleado lista_empleado[12] = {empleado1, empleado2, empleado3, empleado4, empleado5, empleado6, empleado7, empleado8, empleado9, empleado10, empleado11, empleado12};
     int maximo = sizeof(lista_empleado) / sizeof(lista_empleado[0]);
 
