@@ -37,6 +37,10 @@ int main()
     Curso curs_5("0005", "Electricidad I", 4);
     Curso curs_6("0006", "Mecanica IV", 3);
 
+
+    // Curso lista
+    Curso lista_curso[6] = {curs_1, curs_2, curs_3, curs_4, curs_5, curs_6};
+    int maximocurso = sizeof(lista_curso) / sizeof(lista_curso[0]);
     // Estudiante a lista
     Estudiante lista_estudiantes[6] = {est1, est2, est3, est4, est5, est6};
     int maximo = sizeof(lista_estudiantes) / sizeof(lista_estudiantes[0]);
@@ -120,5 +124,12 @@ int main()
         }
     }
     estudiantes.close();
+    ofstream cursos;
+    cursos.open("cursos.txt");
+    cursos << ".- Cursos" << endl;
+    for(int i = 0; i < maximocurso; i++){
+        cursos << lista_curso[i].toString() << endl; 
+    }
+    cursos.close();
     return 0;
 }

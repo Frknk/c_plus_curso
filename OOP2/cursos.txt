@@ -1,0 +1,7 @@
+.- Cursos
+Curso: Programacion Basica --> Credito:  4 --> Promedio: 0.000000
+Curso: Diseno de BD --> Credito:  3 --> Promedio: 0.000000
+Curso: Castrado I --> Credito:  3 --> Promedio: 0.000000
+Curso: Introduccion Zootecnia I --> Credito:  4 --> Promedio: 0.000000
+Curso: Electricidad I --> Credito:  4 --> Promedio: 0.000000
+Curso: Mecanica IV --> Credito:  3 --> Promedio: 0.000000
