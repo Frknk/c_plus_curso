@@ -1,0 +1,20 @@
+Tia Veneno
+ Reporte del dia: 
+.- Ceviche , Precio: 15 , Cantidad: 100
+.- Arroz con pollo , Precio: 10 , Cantidad: 100
+.- Lomo saltado , Precio: 20 , Cantidad: 100
+.- Aji de gallina , Precio: 15 , Cantidad: 100
+.- Seco de cabrito , Precio: 25 , Cantidad: 100
+
+[Delivery] Compra hecha por Frank
+Pago: 800
+Lomo saltado | Cantidad: 40
+
+[Mesa] Compra hecha por Frank
+Pago: 500
+Arroz con pollo | Cantidad: 50
+
+
+.- Ventas Delivery: 40
+.- Ventas Mesa: 50
+.- Ganancias: 1300

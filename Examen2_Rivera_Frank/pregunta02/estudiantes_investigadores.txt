@@ -1,0 +1,17 @@
+Estudiantes: 
+201910111 Juan Perez 12345678 FIIS 3 Inteligencia Artifical
+201910222 Maria Gomez 87654321 FIIS 3 Inteligencia Artificial
+201910333 Pedro Garcia 12345678 FIIS 4 Redes Neuronales
+201910444 Ana Gutierrez 87654321 FIIS 4 Redes Neuronales
+
+
+Estudiantes por semestre: 
+Semestre 3: 
+ Investigacion: Inteligencia Artifical
+201910111 Juan Perez 12345678 FIIS 3 Inteligencia Artifical
+201910222 Maria Gomez 87654321 FIIS 3 Inteligencia Artificial
+
+Semestre 4: 
+ Investigacion: Redes Neuronales
+201910333 Pedro Garcia 12345678 FIIS 4 Redes Neuronales
+201910444 Ana Gutierrez 87654321 FIIS 4 Redes Neuronales
