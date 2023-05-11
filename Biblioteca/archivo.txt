@@ -1,0 +1,12 @@
+Bibliotecario : B001
+U001 | Libro registrado 
+L001 El principito Infantil Antoine de Saint-Exupéry
+Bibliotecario : B001
+U002 | Libro registrado 
+L002 El arte de la guerra Estrategia Sun Tzu
+Bibliotecario : B001
+U003 | Libro registrado 
+L003 El señor de los anillos Fantasia J. R. R. Tolkien
+Bibliotecario : B001
+U004 | Libro registrado 
+L004 El código Da Vinci Misterio Dan Brown
